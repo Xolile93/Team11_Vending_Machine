@@ -2,8 +2,11 @@
 ;;;  Deftemplate
 ;;;################
 
-(deftemplate current-value
+((deftemplate current-value
 	(slot value))
+(deftemplate required-value
+	(slot value))
+
 	
 ;;;#########################
 ;;;  Function for asking
